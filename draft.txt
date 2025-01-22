@@ -1,0 +1,86 @@
+import React from "react";
+import IFP from "/IFP.jpg";
+import aaroncolton from "/aaroncolton.jpeg";
+import anuvjain from "/anuvjain.jpg";
+import shuplan from "/shuplan.jpg";
+import nucleya from "/nucleya.png";
+import abhivyakti from "/abhivyakti.jpeg";
+import adityagadhvi from "/adityagadhvi.jpg";
+import lampros from "/lampros.jpg";
+import toyota from "/toyota.jpg";
+import ftv from "/ftv.jpeg";
+
+class Work extends React.Component{
+    render(){
+        return(
+        <>
+        <div className="flex flex-col w-screen h-screen bg-[#111a1f] p-4">
+            <div className="flex flex-col text-white text-3xl items-center align-top">
+                <h1>Work</h1>
+                <p>Some Projects I could be a part of...</p>
+            </div><br/><br/>
+            <div className="flex items-center justify-evenly p-2 space-x-4 border-2 border-white">
+                <div className="w-1/2 flex border-2 border-red-600 flex-col items-center align-middle text-white bg-[url('/IFP.jpg')] bg-center bg-cover">
+                    <h1 className="text-3xl">IFP</h1>
+                    <p>previously known as India Film Project, is Asia's Largest Content Festival</p>
+                </div>
+                <div className="w-1/2 flex flex-col items-center bg-[url('/aaroncolton.jpeg')] bg-cover bg-center align-middle text-white">
+                    <h1 className="text-3xl">Aaron Colton Showcase</h1>
+                    <p>Aaron is one of the most recognized Street Freestyle riders in the world.</p>
+                </div>
+            </div>
+            <div className="flex items-center justify-evenly p-2 space-x-4 border-2 border-white">
+                <div className="w-full flex flex-col items-center bg-[url('/anuvjain.jpg')] bg-cover bg-center align-middle text-white">
+                    <h1 className="text-3xl">Anuv Jain Concert</h1>
+                    <p>Anuv Jain is an Indian singer, songwriter and composer.</p>
+                </div>
+                <div className="w-full flex flex-col items-center bg-[url('/shuplan.jpg')] bg-cover bg-center align-middle text-white">
+                    <h1 className="text-3xl">Shu Plan</h1>
+                    <p>Shu Plan is a food and travel show Gujarati Media House VTV News</p>
+                </div>
+            </div>
+            <div className="flex items-center justify-evenly p-2 space-x-4 border-2 border-white">
+                <div className="w-full flex flex-col items-center bg-[url('/nucleya.png')] align-middle text-white">
+                    <h1 className="text-3xl">Neucleya Concert</h1>
+                    <p>Single handedly responsible for defining a sound and building a lexicon of
+                    bass music unique to India, Nucleya aka Udayan Sagar is undoubtedly the
+                    country's most popular and influential independent artist.</p>
+                </div>
+                <div className="w-full flex flex-col items-center bg-[url('/abhivyakti.jpeg')] align-middle text-white">
+                    <h1 className="text-3xl">Abhivyakti City Arts Project</h1>
+                    <p>Abhivyakti is a festival that brings together a variety of performing and
+                    visual art forms conceptualized and curated for Ahmedabad.</p>
+                </div>
+            </div>
+            <div className="flex items-center justify-evenly p-2 space-x-4 border-2 border-white">
+                <div className="w-full flex flex-col items-center bg-[url('/adityagadhvi.jpg')] align-middle text-white">
+                    <h1 className="text-3xl">Aditya Gadhvi</h1>
+                    <p>Infamous Gujarati concert</p>
+                </div>
+                <div className="w-full flex flex-col items-center bg-[url('/lampros.jpg')] align-middle text-white">
+                    <h1 className="text-3xl">Lampros Christmas Carnival</h1>
+                    <p>A talent show, game show followed by a bollywood themed fashion show
+                    by 5-10 y/o kids</p>
+                </div>
+            </div>
+            <div className="flex items-center justify-evenly p-2 space-x-4 border-2 border-white">
+                <div className="w-full flex flex-col items-center bg-[url('/toyota.jpg')] align-middle text-white">
+                    <h1 className="text-3xl">Toyota Year End Festival</h1>
+                    <p>A power packed 3 hour interaction and games with premium Toyota Clients</p>
+                </div>
+                <div className="w-full flex flex-col items-center bg-[url('/ftv.jpeg')] align-middle text-white">
+                    <h1 className="text-3xl">FTV SOPA Fashion Show</h1>
+                    <p>FTV is world's highest viewed fashion broadcasting network</p>
+                </div>
+            </div><br/>
+            <div className="flex flex-col text-white items-center align-top">
+                <h1 className="text-3xl">Work with Manav</h1>
+                <p>like they did...</p>
+            </div>
+        </div>
+        </>   
+        )
+    }
+}
+
+export default Work;    

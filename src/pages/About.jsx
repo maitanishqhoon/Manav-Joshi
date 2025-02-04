@@ -1,24 +1,32 @@
 import React from "react";
-import manavjoshi from "/manavjoshi.png";
 
+const About = () => {
+    return (
+        <div 
+            id="About" 
+            className="flex flex-col md:flex-row h-auto md:h-screen bg-[#111a1f] relative"
+        >
+            {/* Background Image (Only on Large Screens) */}
+            <div className="hidden md:block absolute inset-0 bg-[url('/manavjoshi.png')] bg-cover bg-right bg-no-repeat"></div>
 
-class About extends React.Component{
-    render(){
-        return(
-        <>
-        <div className="flex h-screen bg-[url('/manavjoshi.png')] bg-contain bg-right bg-no-repeat bg-[#111a1f] justify-between items-center align-middle">
-        <div className="flex w-2/3 gap-4 font-bold flex-col p-10 items-start text-white text-lg">
-            <h1 className="text-7xl font-black text-white font-roboto">About</h1>
-            <p>Manav is a <span className="text-red-600">Performer, VJ, Marketer, and Bathroom singer.</span> Hosting his first show when he was 12, Manav has over 250 stage shows under his belt, having entertained crowds as huge as 15,000 people. As the host of the popular travel show "Shu Plan?" on VTV Gujarati, Manav's videos have garnered over 10 million views across social media.</p>
-            <p>Manav has conducted 50+ insightful interviews with prominent personalities from the Gujarati entertainment industry. An artist at heart, Manav has a background in marketing with a 5+ years of experience in some fantastic projects.</p>
-            <p>Bring the electrifying energy on stage, on camera, in your next project. Work with Manav, for your next big gig!</p>
+            {/* Text Section */}
+            <div className="relative w-full md:w-2/3 text-white text-lg font-bold flex flex-col gap-6 p-10 md:p-16 z-10">
+                <h1 className="text-5xl md:text-7xl font-alegreya-sans">About</h1>
+                <p className="text-xl md:text-2xl font-alegreya-sans">
+                    Manav is a <span className="text-red-600">Performer, VJ, Marketer, and Bathroom singer.</span> 
+                    Hosting his first show when he was 12, Manav has over 250 stage shows under his belt, having entertained crowds as huge as 15,000 people. 
+                    As the host of the popular travel show "Shu Plan?" on VTV Gujarati, Manav's videos have garnered over 10 million views across social media.
+                </p>
+                <p className="text-xl md:text-2xl font-alegreya-sans">
+                    Manav has conducted 50+ insightful interviews with prominent personalities from the Gujarati entertainment industry. 
+                    An artist at heart, Manav has a background in marketing with 5+ years of experience in some fantastic projects.
+                </p>
+                <p className="text-xl md:text-2xl font-alegreya-sans">
+                    Bring the electrifying energy on stage, on camera, in your next project. Work with Manav for your next big gig!
+                </p>
+            </div>
         </div>
-        <div className="flex items-start text-white text-lg">
-        </div>
-        </div>
-        </>
-        )
-    }
-}
+    );
+};
 
 export default About;

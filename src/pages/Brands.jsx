@@ -34,7 +34,7 @@ const Brands = () => {
   ];
 
   return (
-    <div className="flex flex-col w-screen h-auto bg-[#111a1f] p-4">
+    <div id="brands" className="flex flex-col w-screen h-auto bg-[#111a1f] p-4 font-alegreya-sans">
 
       {/* Footer Section */}
       <div className="flex flex-col text-white items-center mt-8">

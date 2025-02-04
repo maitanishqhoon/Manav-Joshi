@@ -4,8 +4,9 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Work from './pages/Work'
 import Brands from './pages/Brands'
-import Footer from './components/Footer'
+import Counter from './components/Footer'
 import TalkBtn from './components/TalkBtn'
+import Gallery from './pages/Gallery'
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Gallery />
       <Work />
       <Brands />
-      <Footer />
+      <Counter value={100} />
       <TalkBtn />
     </>
   )

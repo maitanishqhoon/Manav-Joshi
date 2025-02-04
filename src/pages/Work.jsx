@@ -9,20 +9,6 @@ import adityagadhvi from "/adityagadhvi.jpg";
 import lampros from "/lampros.jpg";
 import toyota from "/toyota.jpg";
 import ftv from "/ftv.jpeg";
-import redbull from "/logos/redbull.png";
-import vtv from "/logos/vtv.png";
-import ftvlogo from "/logos/ftvlogo.png";
-import toyotalogo from "/logos/toyota.png";
-import ifplogo from "/logos/ifplogo.png";
-import abhilogo from "/logos/abhilogo.png";
-import gimme from "/logos/gimme.png";
-import hungrito from "/logos/hungrito.png";
-import lamproslogo from "/logos/lamproslogo.png";
-import indus from "/logos/indus.png";
-import intel from "/logos/intel.png";
-import justdogs from "/logos/justdogs.png";
-import parul from "/logos/parul.png";
-import torrent from "/logos/torrent.png";
 
 const Work = () => {
   const projects = [
@@ -86,9 +72,8 @@ const Work = () => {
     },
   ];
 
-
   return (
-    <div className="flex flex-col w-screen h-auto bg-[#111a1f] p-4">
+    <div id="work" className="flex flex-col w-screen h-auto bg-[#111a1f] p-4 font-alegreya-sans">
       {/* Header Section */}
       <div className="flex flex-col text-white text-3xl items-center">
         <h1>Work</h1>
@@ -97,17 +82,23 @@ const Work = () => {
       <br />
 
       {/* Grid Section */}
-      <div className="flex flex-wrap justify-between p-4">
+      <div className="flex w-full flex-wrap justify-between p-4 px-10">
         {projects.map((project, index) => (
-          <a href="/"
+          <a
+            href="/"
             key={index}
-            className="w-[48%] h-64 mb-4 flex flex-col items-center justify-center bg-cover bg-center text-white p-4"
+            className="w-[48%] z-[1] hover:scale-105 transition-all h-80 mb-4  bg-cover bg-center  items-center relative text-white p-4"
             style={{
               backgroundImage: `url(${project.image})`,
             }}
           >
-            <h1 className="text-2xl font-black">{project.title}</h1>
-            <p className="mt-2 text-center text-sm font-black">{project.description}</p>
+            <div className=" absolute -z-10 h-full w-full top-0 left-0 bg-black opacity-50"></div>
+            <div className="flex h-full z-0 flex-col justify-center items-center">
+              <h1 className="text-2xl font-black">{project.title}</h1>
+              <p className="mt-2 px-20 text-center text-xl font-black">
+                {project.description}
+              </p>
+            </div>
           </a>
         ))}
       </div>

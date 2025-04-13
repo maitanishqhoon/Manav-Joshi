@@ -12,7 +12,7 @@ const Footer = () => {
     ]
     return (
         <>
-        <div className="flex bg-[#111a1f] items-center justify-around p-4 px-10 font-alegreya-sans">
+        <div className="flex bg-[#111a1f] items-center justify-around p-4 px-10 font-alegreya-sans pb-40">
         {numbers.map((number, index) => (
             <div className="flex flex-col items-center" key={index}>
                 <h1 className="text-white text-3xl">{number.count}</h1>

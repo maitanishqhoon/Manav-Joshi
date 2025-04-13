@@ -8,7 +8,7 @@ class Navbar extends React.Component {
           <a href="/">
             <h1 className="text-3xl font-bold text-white">Manav Joshi</h1>
           </a>
-          <div className="flex align-middle justify-end p-4 ml-auto space-x-10 text-lg font-semibold text-white">
+          <div className="flex align-middle justify-end p-4 ml-auto space-x-10 text-lg font-semibold text-white py-20">
             <a href="#About" className="hover:text-red-400">
               About Us
             </a>

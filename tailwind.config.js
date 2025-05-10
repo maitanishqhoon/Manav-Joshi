@@ -7,10 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'roboto': ['Roboto', 'sans-serif'],
-      'alegreya': ['Alegreya', 'serif'],
-      'alegreya-sans': ['Alegreya-sans', 'sans-serif'],
-      'oswald': ['Oswald', 'sans-serif'],
+      alegreyaSans: ['Alegreya Sans', 'sans-serif'],
     }
   },
   plugins: [],

@@ -38,8 +38,8 @@ const Brands = () => {
 
       {/* Footer Section */}
       <div className="flex flex-col text-white items-center mt-8">
-        <h1 className="text-3xl font-bold">Work with Manav</h1>
-        <p className="font-bold">like they did...</p>
+        <h1 className="text-3xl font-alegreyaSans font-bold">Work with Manav</h1>
+        <p className="font-alegreyaSans font-bold">like they did...</p>
       </div>
 
       {/* Logos Section */}
@@ -74,7 +74,7 @@ const Brands = () => {
             />
           </div>
           <div className="w-[30%] h-48 flex flex-col items-center justify-center">
-            <p className="text-center text-white">
+            <p className="text-center text-white font-alegreyaSans font-bold">
               and many more...
             </p>
           </div>
@@ -83,7 +83,7 @@ const Brands = () => {
       <div className="relative flex items-center justify-center bg-[#111a1f] h-screen text-white">
   <button className="absolute left-4 text-2xl">❮</button>
   <div className="flex flex-col items-center">
-    <h1 className="text-4xl mb-4 font-bold">Shu Plan Che?</h1>
+    <h1 className="text-4xl mb-4 font-alegreyaSans font-bold">Shu Plan Che?</h1>
     <iframe
       className="w-[550px] h-[309px] shadow-lg"
       src="https://www.youtube.com/embed/El59GSC37Fc?si=chlGxpHJ7nrPoTE6"

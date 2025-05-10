@@ -4,7 +4,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <>
-        <div className="font-alegreya-sans flex bg-transparent align-middle justify-between items-center opacity-90 top-0 z-50">
+        <div className="font-alegreyaSans flex bg-transparent align-middle justify-between items-center opacity-90 top-0 z-50">
           <a href="/">
             <h1 className="text-3xl font-bold text-white">Manav Joshi</h1>
           </a>

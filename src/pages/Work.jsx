@@ -75,7 +75,7 @@ const Work = () => {
   return (
     <div id="work" className="flex flex-col w-screen h-auto bg-[#111a1f] p-4 font-alegreya-sans">
       {/* Header Section */}
-      <div className="flex flex-col text-white text-3xl items-center">
+      <div className="flex flex-col text-white text-3xl items-center font-alegreyaSans font-bold">
         <h1>Work</h1>
         <p>Some Projects I could be a part of...</p>
       </div>
@@ -94,8 +94,8 @@ const Work = () => {
           >
             <div className=" absolute -z-10 h-full w-full top-0 left-0 bg-black opacity-50"></div>
             <div className="flex h-full z-0 flex-col justify-center items-center">
-              <h1 className="text-2xl font-black">{project.title}</h1>
-              <p className="mt-2 px-20 text-center text-xl font-black">
+              <h1 className="text-2xl font-black font-alegreyaSans">{project.title}</h1>
+              <p className="mt-2 px-20 text-center text-xl font-black font-alegreyaSans">
                 {project.description}
               </p>
             </div>

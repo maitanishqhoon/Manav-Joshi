@@ -15,14 +15,14 @@ const Footer = () => {
         <div className="flex bg-[#111a1f] items-center justify-around p-4 px-10 font-alegreya-sans pb-40">
         {numbers.map((number, index) => (
             <div className="flex flex-col items-center" key={index}>
-                <h1 className="text-white text-3xl">{number.count}</h1>
-                <p className="text-white">{number.text}</p>
+                <h1 className="text-white text-3xl font-alegreyaSans font-bold">{number.count}</h1>
+                <p className="text-white font-alegreyaSans font-bold">{number.text}</p>
             </div>
         ))}
         </div>
         <div className="bg-[#242a2d] items-center flex flex-col text-white p-4 space-y-12">
             <img src={whitelogo} alt="logo" className="w-1/3 h-1/3 object-contain m-auto"/>
-            <p className="font-bold">Copyright @ 2023 ✸ Manav Joshi</p>
+            <p className="font-alegreyaSans font-bold">Copyright @ 2023 ✸ Manav Joshi</p>
             <div className="flex justify-between space-x-12 items-center align-middle">
                 <a
                 href="#"

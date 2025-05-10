@@ -22,7 +22,7 @@ const Gallery = () => {
 
     return (
         <div id="gallery" className="w-full bg-[#111a1f] p-6 font-alegreya-sans">
-            <h1 className="text-white text-4xl text-left font-bold mb-6">Gallery</h1>
+            <h1 className="text-white text-4xl text-left mb-6 font-alegreyaSans font-bold">Gallery</h1>
 
             {/* Masonry Layout */}
             <div className="columns-1 sm:columns-1 md:columns-3 lg:columns-5 gap-2 space-y-1">

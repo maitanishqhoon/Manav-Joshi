@@ -1,41 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-    @font-face {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(./assets/fonts/roboto.woff2) format('woff2');
-    }
-}
-@layer base {
-    @font-face {
-      font-family: 'Alegreya';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(./assets/fonts/alegreya.woff2) format('woff2');
-    }
-}
-@layer base {
-    @font-face {
-      font-family: 'Alegreya-sans';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(./assets/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf) format('ttf');
-    }
-}
-
-@layer base {
-    @font-face {
-      font-family: 'Oswald';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(./assets/fonts/oswald.woff2) format('woff2');
-    }
-}
